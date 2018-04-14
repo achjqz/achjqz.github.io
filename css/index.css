@@ -30,6 +30,11 @@
     transform: rotateX(0deg);
   }
 }
+@media screen and (max-width: 300px) {
+    body {
+        
+    }
+}
 html, body {
   height: 100%;
 }
@@ -77,16 +82,6 @@ span.listIco {
   text-align: center;
 }
 
-/*
-span.notoSans {
-    font-family: "Noto Sans Japanese", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
-    font-weight: 100;
-    em {
-        font-weight: 500;
-        font-style: normal;
-    }
-}
-*/
 #about {
   text-align: left;
   background-color: #fff;
@@ -157,7 +152,7 @@ span.notoSans {
 #about .menu {
   position: absolute;
   top: 230px;
-  left: -20px;
+  left: 20px;
   right: 0;
   margin: auto;
   width: 450px;
@@ -228,19 +223,4 @@ span.notoSans {
 }
 #about .menu a:hover:before {
   color: #d4d4d4;
-}
-#about .menu .blog:before {
-  content: "\f1e4";
-}
-#about .menu .github:before {
-  content: "\f1c0";
-}
-#about .menu .weibo:before {
-  content: "\f1c9";
-}
-#about .menu .twitter:before {
-  content: "\f1e3";
-}
-#about .menu .pixiv:before {
-  content: "\f194";
 }
