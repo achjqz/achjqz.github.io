@@ -30,11 +30,7 @@
     transform: rotateX(0deg);
   }
 }
-@media screen and (max-width: 300px) {
-    body {
-        
-    }
-}
+
 html, body {
   height: 100%;
 }
